@@ -1,0 +1,7 @@
+STEPS(command)
+1. winpty docker run -it devopsdockeruh/simple-web-service:ubuntu
+2. winpty docker exec -it 379 bash
+3. tail -f ./text.log
+
+SECRET MESSAGE
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
