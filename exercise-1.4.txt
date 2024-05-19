@@ -1,0 +1,10 @@
+CONTAINER_ID = dff
+
+Command to start process
+1. winpty docker run -it ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
+Command to fix
+1. winpty docker exec -it dff apt-get update
+2. winpty docker exec -it dff apt-get install -y curl
+
+After the curl installed, the curl helsinki.fi give the output as expected which is html code.
