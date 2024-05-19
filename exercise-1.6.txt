@@ -1,0 +1,6 @@
+STEPS
+1. winpty docker run -it devopsdockeruh/pull_exercise
+2. basics
+
+SECRET MESSAGE
+You found the correct password. Secret message is: "This is the secret message"
