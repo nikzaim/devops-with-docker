@@ -1,0 +1,17 @@
+alpine image's size smaller that ubuntu
+
+devopsdockeruh/simple-web-service   ubuntu            4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine            fd312adc88e0   3 years ago   15.7MB
+
+=================================================================================
+
+CONTAINER_ID = e47
+
+STEP TO SECRET MESSAGE
+1. winpty docker run -it devopsdockeruh/simple-web-service:alpine
+2. control + p, control + q
+2. winpty docker exec -it e47 sh
+3. tail -f ./text.log
+
+SECRET MESSAGE
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
