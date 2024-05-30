@@ -1,0 +1,4 @@
+COMMAND
+1. docker build . -t hello-frontend
+2. docker build . -t hello-frontend
+3. docker run -p 8080:8080 -d hello-backend && docker run -p 5000:5000 -d hello-frontend
