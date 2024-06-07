@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  hello-frontend:
+    image: hello-frontend
+    ports:
+      - 5000:5000
+  hello-backend-redis:
+    image: hello-backend-redis
+    ports:
+      - 8080:8080
+  redis:
+    image: redis:latest
+    ports:
+      - 6379:6379
