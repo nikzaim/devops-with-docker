@@ -6,10 +6,10 @@ services:
     ports:
       - 5000:5000
   hello-backend-redis:
-    image: hello-backend-redis
+    image: hello-backend
     ports:
       - 8080:8080
+    environment:
+      - REDIS_HOST=redis
   redis:
     image: redis:latest
-    ports:
-      - 6379:6379
